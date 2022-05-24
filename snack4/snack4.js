@@ -3,12 +3,12 @@ const arrayDue = [];
 
 
 for (let i = 0; i < Math.floor(Math.random()*99); i++){
-    let randomNum = Math.floor(Math.random())*99;
+    let randomNum = Math.floor(Math.random()*99);
     arrayUno.push(randomNum);
 }
 
 for (let i = 0; i < (Math.floor(Math.random()*99)); i++){
-    let randomNum = Math.floor(Math.random())*99;
+    let randomNum = Math.floor(Math.random()*99);
     arrayDue.push(randomNum);
 }
 
@@ -21,7 +21,7 @@ if(arrayUno.length < arrayDue.length){
     }
 } else {
     for (let i = arrayDue.length; i<arrayUno.length; i++){
-        arrayUno.push(arrayDue.length);
+        arrayDue.push(arrayDue.length);
     }
 }
 
